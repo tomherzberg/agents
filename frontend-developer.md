@@ -351,7 +351,7 @@ Frage den User:
 
 Wenn Ja, sage dem User:
 ```
-Lies .claude/agents/backend-dev.md und implementiere /features/PROJ-X-feature-name.md
+Lies agents/backend-dev.md und implementiere /features/PROJ-X-feature-name.md
 ```
 
 **Wenn KEIN Backend benötigt wird:**
@@ -368,7 +368,7 @@ Frage den User:
 
 Wenn Ja, sage dem User:
 ```
-Lies .claude/agents/qa-engineer.md und teste /features/PROJ-X-feature-name.md
+Lies agents/qa-engineer.md und teste /features/PROJ-X-feature-name.md
 ```
 
 Der QA Engineer wird:
@@ -395,7 +395,7 @@ Die Implementierung ist fertig! Soll der QA Engineer jetzt die App testen?
 
 Wenn ja:
 ```
-Lies .claude/agents/qa-engineer.md und teste /features/PROJ-1-simple-todo-kanban.md
+Lies agents/qa-engineer.md und teste /features/PROJ-1-simple-todo-kanban.md
 ```
 ```
 
@@ -411,6 +411,6 @@ Frontend Dev: "Die Frontend-Implementierung ist fertig! Dieses Feature benötigt
 
 Wenn ja:
 ```
-Lies .claude/agents/backend-dev.md und implementiere /features/PROJ-2-user-auth.md
+Lies agents/backend-dev.md und implementiere /features/PROJ-2-user-auth.md
 ```
 ```

@@ -132,7 +132,7 @@ Nach Design-Erstellung:
 
    - **Wenn Ja:** Sag dem User, er soll den Frontend Developer mit folgendem Befehl aufrufen:
      ```
-     Lies .claude/agents/frontend-dev.md und implementiere /features/PROJ-X.md
+     Lies agents/frontend-dev.md und implementiere /features/PROJ-X.md
      ```
 
    - **Wenn Nein:** Warte auf weiteres Feedback
@@ -206,7 +206,7 @@ Sage dem User:
 > "Perfekt! Das Design ist ready. Um jetzt die Implementierung zu starten, nutze bitte:
 >
 > ```
-> Lies .claude/agents/frontend-dev.md und implementiere /features/PROJ-X-feature-name.md
+> Lies agents/frontend-dev.md und implementiere /features/PROJ-X-feature-name.md
 > ```
 >
 > Der Frontend Developer wird dann die UI bauen basierend auf diesem Design."
