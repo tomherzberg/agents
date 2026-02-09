@@ -1,53 +1,53 @@
-# AI Agent Orchestration Framework
+# KI-Agenten Orchestrierung Framework
 
-This repository contains a collection of specialized AI Agent definitions designed to work together as a virtual software development team. Each agent has a specific role, set of responsibilities, and a defined workflow to ensure high-quality software development from requirements to deployment.
+Dieses Repository enthält eine Sammlung spezialisierter KI-Agenten-Definitionen, die als virtuelles Software-Entwicklungsteam zusammenarbeiten. Jeder Agent hat eine spezifische Rolle, klare Verantwortlichkeiten und einen definierten Workflow, um hochwertige Software von der Anforderungsanalyse bis zum Deployment zu gewährleisten.
 
-## 🚀 The Team
+## 🚀 Das Team
 
 ### 📋 Requirements Engineer
-Translates vague ideas into structured feature specifications.
+Übersetzt vage Ideen in strukturierte Feature-Spezifikationen.
 - **Output:** `/features/PROJ-X-feature-name.md`
-- **Focus:** User Stories, Acceptance Criteria, and Edge Cases.
+- **Fokus:** User Stories, Akzeptanzkriterien und Edge Cases.
 
 ### 🏗️ Solution Architect
-Plans the high-level architecture for non-technical stakeholders.
-- **Output:** Architecture sections in feature specs.
-- **Focus:** Component trees, data models, and technology choices (no code).
+Plant die High-Level-Architektur für nicht-technische Stakeholder.
+- **Output:** Architektur-Abschnitte in den Feature-Spezifikationen.
+- **Fokus:** Komponentenhierarchien, Datenmodelle und Technologieentscheidungen (kein Code).
 
 ### 🎨 Frontend Developer
-Builds the user interface and interactions.
+Implementiert die Benutzeroberfläche und Interaktionen.
 - **Stack:** React, Next.js (App Router), Tailwind CSS, shadcn/ui.
-- **Focus:** UI/UX, responsiveness, and accessibility.
+- **Fokus:** UI/UX, Responsivität und Barrierefreiheit.
 
 ### ⚙️ Backend Developer
-Handles the server-side logic and data persistence.
+Verantwortlich für die serverseitige Logik und Datenpersistenz.
 - **Stack:** Supabase (PostgreSQL), Next.js Route Handlers, Zod.
-- **Focus:** API design, Database migrations, and Row Level Security (RLS).
+- **Fokus:** API-Design, Datenbank-Migrationen und Row Level Security (RLS).
 
 ### 🛡️ QA Engineer
-Ensures quality and security through rigorous testing.
-- **Focus:** Manual testing against Acceptance Criteria, Edge Case verification, and security "Red-Team" analysis.
+Sichert Qualität und Sicherheit durch rigorose Tests.
+- **Fokus:** Manuelle Tests gegen Akzeptanzkriterien, Überprüfung von Edge Cases und Security "Red-Team" Analysen.
 
 ### 🚢 DevOps Engineer
-Manages the infrastructure and deployment pipeline.
+Verwaltet die Infrastruktur und die Deployment-Pipeline.
 - **Stack:** Vercel, GitHub Actions.
-- **Focus:** CI/CD, environment variables, and production monitoring.
+- **Fokus:** CI/CD, Umgebungsvariablen und Produktions-Monitoring.
 
 ## 🔄 Workflow
 
-1.  **Requirement Phase:** The *Requirements Engineer* creates a feature spec.
-2.  **Design Phase:** The *Solution Architect* defines the structure.
-3.  **Implementation:** *Frontend* and *Backend Developers* build the feature in parallel.
-4.  **Verification:** The *QA Engineer* tests the implementation.
-5.  **Deployment:** The *DevOps Engineer* pushes the feature to production.
+1.  **Anforderungsphase:** Der *Requirements Engineer* erstellt eine Feature-Spezifikation.
+2.  **Designphase:** Der *Solution Architect* definiert die Struktur.
+3.  **Implementierung:** *Frontend-* und *Backend-Developer* bauen das Feature parallel.
+4.  **Verifizierung:** Der *QA Engineer* testet die Implementierung.
+5.  **Deployment:** Der *DevOps Engineer* pusht das Feature in die Produktion.
 
-## 🛠️ Tech Stack Convention
+## 🛠️ Tech Stack Konventionen
 
 - **Framework:** Next.js (App Router)
 - **Styling:** Tailwind CSS
-- **Components:** shadcn/ui
-- **Database/Auth:** Supabase
+- **Komponenten:** shadcn/ui
+- **Datenbank/Auth:** Supabase
 - **Deployment:** Vercel
 
-## 📖 How to use
-To activate an agent, provide the respective `.md` file as context to your AI assistant (e.g., "Read `frontend-developer.md` and implement the feature described in `features/PROJ-1.md`").
+## 📖 Nutzung
+Um einen Agenten zu aktivieren, übergib die entsprechende `.md`-Datei als Kontext an deinen KI-Assistenten (z. B.: „Lies `frontend-developer.md` und implementiere das Feature aus `features/PROJ-1.md`“).
